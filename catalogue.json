@@ -1,0 +1,1478 @@
+[
+  {
+    "id": "896D76BD-CA9E-4F11-8584-7EBBE9535AED",
+    "name": "Chin Tuck",
+    "bodyArea": "neck",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Sit tall. Pull your chin straight back, making a double chin. Hold 5 seconds. Release. Repeat 5 times.",
+    "formCue": "Keep eyes level \u2014 don't tilt your head down.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {
+          "neck": 6
+        },
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 800,
+        "pose": {
+          "neck": -2,
+          "head": 16
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 5s"
+      },
+      {
+        "tMillis": 5800,
+        "pose": {
+          "neck": -2,
+          "head": 16
+        }
+      },
+      {
+        "tMillis": 6600,
+        "pose": {
+          "neck": 6
+        }
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Video: Neck stretches for the workplace",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/multimedia/neck-stretches/vid-20084697",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 1,
+    "isActive": true
+  },
+  {
+    "id": "41D5A6C3-5BD3-4798-BA7F-540A06157EEA",
+    "name": "Lateral Neck Stretch",
+    "bodyArea": "neck",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Tilt your right ear toward your right shoulder. Hold 15 seconds. Switch sides.",
+    "formCue": "Drop the opposite shoulder down and away from your ear.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 800,
+        "pose": {
+          "neck": 24
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 5800,
+        "pose": {
+          "neck": 24
+        }
+      },
+      {
+        "tMillis": 6600,
+        "pose": {},
+        "haptic": "switchSides"
+      },
+      {
+        "tMillis": 7400,
+        "pose": {
+          "neck": -24
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 12400,
+        "pose": {
+          "neck": -24
+        }
+      },
+      {
+        "tMillis": 13200,
+        "pose": {},
+        "haptic": "repBoundary"
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Video: Neck stretches for the workplace",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/multimedia/neck-stretches/vid-20084697",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "front",
+    "sortOrder": 2,
+    "isActive": true
+  },
+  {
+    "id": "29F310FC-9E55-4839-865D-DD58782CEC11",
+    "name": "Levator Scapulae Release",
+    "bodyArea": "neck",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Turn your head 45\u00b0 to the right. Tuck your chin toward your collarbone. Hold 15 seconds. Switch sides.",
+    "formCue": "You should feel the stretch along the back-side of your neck.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "Neck Pain: 6 Common Causes and Treatments",
+      "url": "https://my.clevelandclinic.org/health/symptoms/21179-neck-pain",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 3,
+    "isActive": true
+  },
+  {
+    "id": "D52ECF79-A824-416E-9907-1413F5B61314",
+    "name": "Neck Flexion Hold",
+    "bodyArea": "neck",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Drop your chin slowly to your chest. Let gravity pull gently. Hold 15 seconds. Slowly return. Repeat once.",
+    "formCue": "Relax your shoulders \u2014 don't hunch them up.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "neck": 26
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "neck": 26
+        }
+      },
+      {
+        "tMillis": 7000,
+        "pose": {}
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic Health System",
+      "citation": "Don't sit: Exercises for the office",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/dont-just-sit-there-exercises-for-the-office",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 4,
+    "isActive": true
+  },
+  {
+    "id": "A7CB63C9-BE1A-4D88-A438-D8B0BD47D82A",
+    "name": "Isometric Neck Press",
+    "bodyArea": "neck",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Place your palm on your forehead. Press your head into your hand without moving. Hold 10 seconds. Repeat with hand on each side.",
+    "formCue": "Resist evenly \u2014 your head shouldn't actually move.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "APTA",
+      "citation": "Physical Therapy Guide to Neck Pain",
+      "url": "https://www.choosept.com/guide/physical-therapy-guide-neck-pain",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 5,
+    "isActive": true
+  },
+  {
+    "id": "5E1FBA92-C65D-4C08-9E9A-9AD931016CB9",
+    "name": "Scalene Stretch",
+    "bodyArea": "neck",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Place your right hand behind your back. Tilt your left ear toward your left shoulder. Hold 15 seconds. Switch sides.",
+    "formCue": "The arm behind your back anchors the shoulder \u2014 that deepens the stretch.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Harvard Health",
+      "citation": "Neck pain: Core exercises can help",
+      "url": "https://www.health.harvard.edu/pain/neck-pain-core-exercises-can-help",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 6,
+    "isActive": true
+  },
+  {
+    "id": "E45359DD-4A90-4F06-9D7C-EFCABCBAA33F",
+    "name": "Shoulder Shrug & Roll",
+    "bodyArea": "shouldersUpperBack",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Shrug both shoulders up to your ears. Hold 3 seconds. Roll them back and down. Repeat 5 times.",
+    "formCue": "Exaggerate the backward roll \u2014 open your chest at the bottom.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Desk stretches: Video collection",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-stretches/art-20046041",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 7,
+    "isActive": true
+  },
+  {
+    "id": "526A9B7A-191F-469E-B2BF-DBCCEBA3532B",
+    "name": "Cross-Body Shoulder Stretch",
+    "bodyArea": "shouldersUpperBack",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Bring your right arm across your chest. Use your left hand to press it closer. Hold 15 seconds. Switch sides.",
+    "formCue": "Keep the stretching arm straight \u2014 don't bend the elbow.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic Health System",
+      "citation": "Don't sit: Exercises for the office",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/dont-just-sit-there-exercises-for-the-office",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 8,
+    "isActive": true
+  },
+  {
+    "id": "E19FE2A9-86E4-4328-92F8-CD8B117BC2CC",
+    "name": "Scapular Squeeze",
+    "bodyArea": "shouldersUpperBack",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Sit tall, arms at your sides. Squeeze your shoulder blades together as if pinching a pencil between them. Hold 5 seconds. Repeat 5 times.",
+    "formCue": "Don't arch your lower back \u2014 the movement is all between the shoulder blades.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "8 Posture Exercises To Sit and Stand Straighter",
+      "url": "https://health.clevelandclinic.org/posture-exercises",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 9,
+    "isActive": true
+  },
+  {
+    "id": "C371E8D6-8DF5-48CD-AF32-90D5ED11E6B1",
+    "name": "Overhead Reach & Side Lean",
+    "bodyArea": "shouldersUpperBack",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Interlace your fingers overhead, palms to ceiling. Lean gently to the right. Hold 10 seconds. Center. Lean left. Hold 10 seconds.",
+    "formCue": "Keep both sit bones planted \u2014 the lean comes from your ribs, not your hips.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "shoulderR": 152,
+          "shoulderL": 152,
+          "elbowR": 18,
+          "elbowL": 18
+        }
+      },
+      {
+        "tMillis": 2000,
+        "pose": {
+          "shoulderR": 152,
+          "shoulderL": 152,
+          "elbowR": 18,
+          "elbowL": 18,
+          "spine": 16
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 10s"
+      },
+      {
+        "tMillis": 5000,
+        "pose": {
+          "shoulderR": 152,
+          "shoulderL": 152,
+          "elbowR": 18,
+          "elbowL": 18,
+          "spine": 16
+        }
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "shoulderR": 152,
+          "shoulderL": 152,
+          "elbowR": 18,
+          "elbowL": 18
+        },
+        "haptic": "switchSides"
+      },
+      {
+        "tMillis": 7000,
+        "pose": {
+          "shoulderR": 152,
+          "shoulderL": 152,
+          "elbowR": 18,
+          "elbowL": 18,
+          "spine": -16
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 10s"
+      },
+      {
+        "tMillis": 10000,
+        "pose": {
+          "shoulderR": 152,
+          "shoulderL": 152,
+          "elbowR": 18,
+          "elbowL": 18,
+          "spine": -16
+        }
+      },
+      {
+        "tMillis": 11000,
+        "pose": {},
+        "haptic": "repBoundary"
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Desk stretches: Video collection",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/office-stretches/art-20046041",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "front",
+    "sortOrder": 10,
+    "isActive": true
+  },
+  {
+    "id": "82C18BAB-4869-4014-8344-88F6BE1BDA08",
+    "name": "Upper Trap Stretch",
+    "bodyArea": "shouldersUpperBack",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Sit on your right hand. Tilt your left ear toward your left shoulder. Hold 15 seconds. Switch sides.",
+    "formCue": "Sitting on your hand anchors the shoulder down \u2014 you'll feel more stretch.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 800,
+        "pose": {
+          "neck": -26
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 5800,
+        "pose": {
+          "neck": -26
+        }
+      },
+      {
+        "tMillis": 6600,
+        "pose": {},
+        "haptic": "switchSides"
+      },
+      {
+        "tMillis": 7400,
+        "pose": {
+          "neck": 26
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 12400,
+        "pose": {
+          "neck": 26
+        }
+      },
+      {
+        "tMillis": 13200,
+        "pose": {},
+        "haptic": "repBoundary"
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "APTA",
+      "citation": "Physical Therapy Guide to Neck Pain",
+      "url": "https://www.choosept.com/guide/physical-therapy-guide-neck-pain",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "front",
+    "sortOrder": 11,
+    "isActive": true
+  },
+  {
+    "id": "F9C6DEF5-ED3A-4EBF-BBAC-7397778B81BA",
+    "name": "Eagle Arms",
+    "bodyArea": "shouldersUpperBack",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend arms forward. Cross right arm over left at the elbows. Bend elbows and press palms together. Lift elbows slightly. Hold 15 seconds. Switch arm positions.",
+    "formCue": "If palms don't touch, press the backs of your hands together instead.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Harvard Health",
+      "citation": "Stretching: 35 exercises to improve flexibility and reduce pain",
+      "url": "https://www.health.harvard.edu/exercise-and-fitness/stretching-35-exercises-to-improve-flexibility-and-reduce-pain-1",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 12,
+    "isActive": true
+  },
+  {
+    "id": "2262D1A6-9FE7-4182-8881-C4063C5CFA35",
+    "name": "Seated Chest Opener",
+    "bodyArea": "chestPosture",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Clasp your hands behind your back. Straighten your arms and gently lift them while opening your chest. Hold 15 seconds. Release. Repeat once.",
+    "formCue": "Pull your shoulder blades down and together \u2014 don't shrug.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "8 Posture Exercises To Sit and Stand Straighter",
+      "url": "https://health.clevelandclinic.org/posture-exercises",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 13,
+    "isActive": true
+  },
+  {
+    "id": "8C5F7803-0961-41D5-AD00-AC3ED94E6DC3",
+    "name": "Seated Cat-Cow",
+    "bodyArea": "chestPosture",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Hands on knees. Exhale and round your back, chin to chest (cat). Inhale and arch your back, chest forward, look up (cow). Alternate 5 times.",
+    "formCue": "Move slowly \u2014 one full breath per position.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Back exercises in 15 minutes a day",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/back-pain/art-20546859",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 14,
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1750,
+        "pose": {
+          "spine": 22,
+          "spineUpper": 26,
+          "neck": 18
+        },
+        "haptic": "hold",
+        "holdLabel": "round (cat)"
+      },
+      {
+        "tMillis": 3500,
+        "pose": {
+          "spine": 22,
+          "spineUpper": 26,
+          "neck": 18
+        }
+      },
+      {
+        "tMillis": 5250,
+        "pose": {
+          "spine": -16,
+          "spineUpper": -20,
+          "neck": -16
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "arch (cow)"
+      },
+      {
+        "tMillis": 7000,
+        "pose": {
+          "spine": -16,
+          "spineUpper": -20,
+          "neck": -16
+        }
+      },
+      {
+        "tMillis": 8000,
+        "pose": {}
+      }
+    ]
+  },
+  {
+    "id": "9D6E3F27-1919-47BA-8214-DFAF0D523145",
+    "name": "Doorframe-Free Pec Stretch",
+    "bodyArea": "chestPosture",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Place both hands on the back of your head, elbows wide. Gently press your elbows back until you feel your chest open. Hold 15 seconds. Release. Repeat once.",
+    "formCue": "Don't push your head forward \u2014 your hands rest lightly, elbows do the work.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "shoulderR": 108,
+          "shoulderL": 108,
+          "elbowR": 120,
+          "elbowL": 120
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "shoulderR": 108,
+          "shoulderL": 108,
+          "elbowR": 120,
+          "elbowL": 120
+        }
+      },
+      {
+        "tMillis": 7000,
+        "pose": {},
+        "haptic": "repBoundary"
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "APTA",
+      "citation": "Exercise Posture Break for Office Workers",
+      "url": "https://www.choosept.com/patientresources/videolibrary/detail/exercise-posture-break-office-workers",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "front",
+    "sortOrder": 15,
+    "isActive": true
+  },
+  {
+    "id": "3DB9907C-D95B-41AB-9D96-443BBDA131A7",
+    "name": "Thoracic Extension",
+    "bodyArea": "chestPosture",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Sit at the edge of your chair. Place hands behind your head. Gently arch your upper back over the chair back. Hold 10 seconds. Return. Repeat twice.",
+    "formCue": "The bend should be in your upper back, not your lower back.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "Cat-Cow Stretch: A Gentle Move With Big Benefits",
+      "url": "https://health.clevelandclinic.org/cat-cow-stretch",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 16,
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "spineUpper": -30,
+          "neck": -8
+        },
+        "haptic": "hold",
+        "holdLabel": "arch upper back, hold 10s"
+      },
+      {
+        "tMillis": 6200,
+        "pose": {
+          "spineUpper": -30,
+          "neck": -8
+        }
+      },
+      {
+        "tMillis": 7400,
+        "pose": {}
+      }
+    ]
+  },
+  {
+    "id": "86181C68-CA8E-4FA9-9BF7-06DED675A1E5",
+    "name": "Seated Arm Circles",
+    "bodyArea": "chestPosture",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend both arms to the sides at shoulder height. Make 10 small forward circles, then 10 backward. Lower arms.",
+    "formCue": "Keep circles small and controlled \u2014 shoulder blades should glide, not shrug.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic Health System",
+      "citation": "Don't sit: Exercises for the office",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/dont-just-sit-there-exercises-for-the-office",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 17,
+    "isActive": true
+  },
+  {
+    "id": "58092A05-A122-4904-9CE2-4093DB489983",
+    "name": "W-Arm Wall-Free Pull",
+    "bodyArea": "chestPosture",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Raise arms to goal-post position (elbows at 90\u00b0, upper arms at shoulder height). Squeeze shoulder blades and pull elbows down and back, making a W shape. Hold 5 seconds. Repeat 5 times.",
+    "formCue": "Think \"put your shoulder blades in your back pockets.\"",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 600,
+        "pose": {
+          "shoulderR": 78,
+          "shoulderL": 78,
+          "elbowR": 90,
+          "elbowL": 90
+        }
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "shoulderR": 56,
+          "shoulderL": 56,
+          "elbowR": 96,
+          "elbowL": 96
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 5s"
+      },
+      {
+        "tMillis": 4000,
+        "pose": {
+          "shoulderR": 56,
+          "shoulderL": 56,
+          "elbowR": 96,
+          "elbowL": 96
+        }
+      },
+      {
+        "tMillis": 4800,
+        "pose": {
+          "shoulderR": 78,
+          "shoulderL": 78,
+          "elbowR": 90,
+          "elbowL": 90
+        },
+        "haptic": "repBoundary"
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Harvard Health",
+      "citation": "Is it too late to save your posture?",
+      "url": "https://www.health.harvard.edu/exercise-and-fitness/is-it-too-late-to-save-your-posture",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "front",
+    "sortOrder": 18,
+    "isActive": true
+  },
+  {
+    "id": "7FDB9CE5-4319-4948-8565-22FB3130D898",
+    "name": "Wrist Flexor Stretch",
+    "bodyArea": "wristsForearms",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend your right arm, palm up. With your left hand, gently pull your fingers down and back. Hold 15 seconds. Switch hands.",
+    "formCue": "Keep the stretching arm straight \u2014 elbow locked.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "3 Stretches To Prevent or Relieve Carpal Tunnel",
+      "url": "https://health.clevelandclinic.org/worried-about-carpal-tunnel-try-these-3-stretches-video",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 19,
+    "isActive": true
+  },
+  {
+    "id": "D69F9D2B-ACBF-403E-8FD1-D5692625F098",
+    "name": "Wrist Extensor Stretch",
+    "bodyArea": "wristsForearms",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend your right arm, palm down. With your left hand, gently press the back of your hand down. Hold 15 seconds. Switch hands.",
+    "formCue": "You should feel the stretch along the top of your forearm.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Video: Wrist and forearm stretches for the workplace",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/multimedia/forearm-stretches/vid-20084698",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 20,
+    "isActive": true
+  },
+  {
+    "id": "CDDE43E6-3209-43A7-BCFB-7489A5F6A763",
+    "name": "Fist-to-Fan",
+    "bodyArea": "wristsForearms",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Make tight fists with both hands. Hold 3 seconds. Spread all fingers wide. Hold 3 seconds. Repeat 5 times.",
+    "formCue": "Spread fingers as far apart as possible on the open phase.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "11 Exercises and Stretches for Wrist Pain",
+      "url": "https://health.clevelandclinic.org/wrist-pain-exercises",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 21,
+    "isActive": true
+  },
+  {
+    "id": "D61E16DA-59AB-4C6D-8FB7-2977E65F7640",
+    "name": "Wrist Circles",
+    "bodyArea": "wristsForearms",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend both arms in front of you. Make slow circles with your wrists \u2014 10 clockwise, then 10 counterclockwise.",
+    "formCue": "Keep your forearms still \u2014 only your hands move.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Video: Wrist and forearm stretches for the workplace",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/adult-health/multimedia/forearm-stretches/vid-20084698",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 22,
+    "isActive": true
+  },
+  {
+    "id": "B5388531-F18A-4D62-A02B-44BA0D477AFC",
+    "name": "Prayer Stretch",
+    "bodyArea": "wristsForearms",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Press palms together in front of your chest, fingers pointing up. Slowly lower your hands toward your waist, keeping palms pressed. Hold where you feel the stretch for 15 seconds.",
+    "formCue": "Keep your elbows lifting outward as your hands lower.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "3 Stretches To Prevent or Relieve Carpal Tunnel",
+      "url": "https://health.clevelandclinic.org/worried-about-carpal-tunnel-try-these-3-stretches-video",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 23,
+    "isActive": true
+  },
+  {
+    "id": "4EB363A8-429C-4BCC-81F7-CCEC642FFA65",
+    "name": "Thumb Flexion Stretch",
+    "bodyArea": "wristsForearms",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend your right hand open. Use your left hand to gently pull your right thumb down and across your palm. Hold 15 seconds. Switch hands.",
+    "formCue": "Stop if you feel sharp pain \u2014 this should be a mild pull only.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "11 Exercises and Stretches for Wrist Pain",
+      "url": "https://health.clevelandclinic.org/wrist-pain-exercises",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 24,
+    "isActive": true
+  },
+  {
+    "id": "0BF46D96-DD48-4122-8B0B-9A6BDC512DC9",
+    "name": "Seated Spinal Twist",
+    "bodyArea": "lowerBackHips",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Sit tall. Place your right hand on your left knee. Twist gently to the left, looking over your left shoulder. Hold 15 seconds. Switch sides.",
+    "formCue": "Sit up tall first, then twist \u2014 don't slouch into the rotation.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Harvard Health",
+      "citation": "A plan for easy stretching",
+      "url": "https://www.health.harvard.edu/staying-healthy/a-plan-for-easy-stretching",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 25,
+    "isActive": true
+  },
+  {
+    "id": "D1E36215-DDBB-4E54-92AA-3890908E3518",
+    "name": "Seated Figure-Four",
+    "bodyArea": "lowerBackHips",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Cross your right ankle over your left knee. Sit tall and gently lean forward from your hips. Hold 15 seconds. Switch legs.",
+    "formCue": "Keep your back straight \u2014 the lean is from the hips, not the shoulders.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "APTA",
+      "citation": "Physical Therapy Guide to Hip Impingement (Femoroacetabular Impingement)",
+      "url": "https://www.choosept.com/guide/physical-therapy-guide-hip-impingement-femoroacetabular",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 26,
+    "isActive": true
+  },
+  {
+    "id": "A862155A-F679-4CB0-967C-CEBB9A91728A",
+    "name": "Seated Knee-to-Chest",
+    "bodyArea": "lowerBackHips",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Grab behind your right thigh and pull your knee toward your chest. Hold 15 seconds. Switch legs.",
+    "formCue": "Keep your back straight \u2014 don't round forward to meet your knee.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "hipL": 65,
+          "kneeL": 50
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "hipL": 65,
+          "kneeL": 50
+        }
+      },
+      {
+        "tMillis": 7000,
+        "pose": {}
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic Health System",
+      "citation": "Don't sit: Exercises for the office",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/dont-just-sit-there-exercises-for-the-office",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 27,
+    "isActive": true
+  },
+  {
+    "id": "2A702F68-343C-470D-8E38-CFC148E2C808",
+    "name": "Pelvic Tilt",
+    "bodyArea": "lowerBackHips",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Sit tall. Tilt your pelvis forward, arching your low back slightly. Hold 5 seconds. Tilt backward, flattening your low back. Hold 5 seconds. Repeat 3 times.",
+    "formCue": "The movement is small and low \u2014 your shoulders shouldn't move much.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "These Lower Back Stretches and Exercises Can Help Relieve Pain",
+      "url": "https://health.clevelandclinic.org/exercises-and-stretches-for-low-back-pain",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 28,
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "spine": 14,
+          "spineUpper": -28
+        },
+        "haptic": "hold",
+        "holdLabel": "anterior tilt, hold 5s"
+      },
+      {
+        "tMillis": 3000,
+        "pose": {
+          "spine": 14,
+          "spineUpper": -28
+        }
+      },
+      {
+        "tMillis": 4000,
+        "pose": {
+          "spine": -12,
+          "spineUpper": 24
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "posterior tilt, hold 5s"
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "spine": -12,
+          "spineUpper": 24
+        }
+      },
+      {
+        "tMillis": 7000,
+        "pose": {}
+      }
+    ]
+  },
+  {
+    "id": "4BCE1D73-4FFD-4663-8923-B05F32DFF59A",
+    "name": "Seated Hip Flexor Stretch",
+    "bodyArea": "lowerBackHips",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Scoot to the right edge of your chair. Let your left leg slide back, foot on floor behind you. Press your hips slightly forward. Hold 15 seconds. Switch sides.",
+    "formCue": "Keep your torso upright \u2014 don't lean forward.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "hipL": -38,
+          "kneeL": 20
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "hipL": -38,
+          "kneeL": 20
+        }
+      },
+      {
+        "tMillis": 7000,
+        "pose": {}
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "APTA",
+      "citation": "30-Minute Home Stretching Program",
+      "url": "https://www.choosept.com/health-tips/30-minute-home-stretching-program",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 29,
+    "isActive": true
+  },
+  {
+    "id": "4EF46BDB-1959-4208-92BA-379B4AB19DBA",
+    "name": "Seated Glute Stretch",
+    "bodyArea": "lowerBackHips",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Cross your right ankle over your left knee. Place your right hand on your right knee and gently press down. Hold 15 seconds. Switch sides.",
+    "formCue": "Sit tall throughout \u2014 pressing the knee works better when your spine is straight.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Harvard Health",
+      "citation": "Stretching: 35 exercises to improve flexibility and reduce pain",
+      "url": "https://www.health.harvard.edu/exercise-and-fitness/stretching-35-exercises-to-improve-flexibility-and-reduce-pain-1",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 30,
+    "isActive": true
+  },
+  {
+    "id": "A9A2BFD2-13F7-4122-86E5-21A0DE0534B0",
+    "name": "Seated Hamstring Stretch",
+    "bodyArea": "lowerBodyAnkles",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Extend your right leg straight, heel on the floor. Sit tall and hinge forward from your hips until you feel a stretch behind your thigh. Hold 15 seconds. Switch legs.",
+    "formCue": "Keep your back flat \u2014 hinge at the hips, don't round your spine.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "spine": 18,
+          "hipL": -5,
+          "kneeL": -72
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 6200,
+        "pose": {
+          "spine": 18,
+          "hipL": -5,
+          "kneeL": -72
+        }
+      },
+      {
+        "tMillis": 7400,
+        "pose": {}
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic",
+      "citation": "Hamstring stretch",
+      "url": "https://www.mayoclinic.org/diseases-conditions/hamstring-injury/multimedia/hamstring-stretch/img-20006930",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 31,
+    "isActive": true
+  },
+  {
+    "id": "C74DE9A4-B811-45D4-8D52-FDC0F2F1A417",
+    "name": "Ankle Circles",
+    "bodyArea": "lowerBodyAnkles",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Lift your right foot off the floor. Draw slow circles with your toes \u2014 10 clockwise, then 10 counterclockwise. Switch feet.",
+    "formCue": "Make the circles as large as your ankle allows \u2014 full range of motion.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "How To Strengthen Your Ankles",
+      "url": "https://health.clevelandclinic.org/ankle-exercises-weak-ankles",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 32,
+    "isActive": true
+  },
+  {
+    "id": "2B3EC1C1-5795-45FA-BAB1-3DD6A6361368",
+    "name": "Calf Raise (Seated)",
+    "bodyArea": "lowerBodyAnkles",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Place both feet flat on the floor. Lift your heels as high as possible, pressing onto the balls of your feet. Hold 3 seconds. Lower. Repeat 8 times.",
+    "formCue": "Push evenly through all five toes \u2014 don't roll to the outside edge.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "APTA",
+      "citation": "30-Minute Home Strengthening Program",
+      "url": "https://www.choosept.com/health-tips/30-minute-home-strengthening-program",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 33,
+    "isActive": true
+  },
+  {
+    "id": "7C284C18-1AA1-436F-9CBE-3044AF73CE56",
+    "name": "Toe Flexion & Extension",
+    "bodyArea": "lowerBodyAnkles",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "With feet flat on the floor, curl your toes tightly. Hold 5 seconds. Lift and spread all toes wide. Hold 5 seconds. Repeat 3 times.",
+    "formCue": "Keep your feet planted \u2014 only your toes should move.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Cleveland Clinic",
+      "citation": "4 Best Exercises for Flat Feet and Fallen Arches",
+      "url": "https://health.clevelandclinic.org/exercises-flat-feet-fallen-arches",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 34,
+    "isActive": true
+  },
+  {
+    "id": "BA5736AB-D714-4B16-8C7F-B7B0DBFB9521",
+    "name": "Seated Quad Stretch",
+    "bodyArea": "lowerBodyAnkles",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Scoot to the edge of your chair. Bend your right knee and reach back to grab your right ankle. Gently pull your heel toward your glute. Hold 15 seconds. Switch legs.",
+    "formCue": "Keep your knees close together \u2014 don't let the stretching knee flare out.",
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1000,
+        "pose": {
+          "hipL": -8,
+          "kneeL": 65
+        },
+        "haptic": "hold",
+        "holdLabel": "hold 15s"
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "hipL": -8,
+          "kneeL": 65
+        }
+      },
+      {
+        "tMillis": 7000,
+        "pose": {}
+      }
+    ],
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Mayo Clinic Health System",
+      "citation": "Don't sit: Exercises for the office",
+      "url": "https://www.mayoclinichealthsystem.org/hometown-health/speaking-of-health/dont-just-sit-there-exercises-for-the-office",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
+    },
+    "viewPlane": "side",
+    "sortOrder": 35,
+    "isActive": true
+  },
+  {
+    "id": "3352A11D-F269-4362-A14C-B725650A2108",
+    "name": "Ankle Dorsiflexion Stretch",
+    "bodyArea": "lowerBodyAnkles",
+    "side": "bilateral",
+    "durationSeconds": 30,
+    "instruction": "Place your right foot flat on the floor. Keeping your heel down, slide your knee forward over your toes as far as comfortable. Hold 15 seconds. Switch feet.",
+    "formCue": "Heel stays glued to the floor \u2014 the stretch is in the back of your ankle.",
+    "tags": [
+      "position:seated"
+    ],
+    "source": {
+      "authority": "Harvard Health",
+      "citation": "Exercises and stretches to keep your feet healthy",
+      "url": "https://www.health.harvard.edu/staying-healthy/exercises-and-stretches-to-keep-your-feet-healthy",
+      "year": null
+    },
+    "provenance": {
+      "reviewedBy": "Brian (beta)",
+      "reviewedAt": null,
+      "reviewStatus": "approved"
+    },
+    "viewPlane": "side",
+    "sortOrder": 36,
+    "isActive": true
+  }
+]
