@@ -12,8 +12,7 @@
         "tMillis": 0,
         "pose": {
           "neck": 6
-        },
-        "haptic": "repBoundary"
+        }
       },
       {
         "tMillis": 800,
@@ -21,18 +20,18 @@
           "neck": -2,
           "head": 16
         },
-        "haptic": "hold",
-        "holdLabel": "hold 5s"
+        "haptic": "repBoundary",
+        "holdLabel": "tuck, hold 5s"
       },
       {
-        "tMillis": 5800,
+        "tMillis": 5600,
         "pose": {
           "neck": -2,
           "head": 16
         }
       },
       {
-        "tMillis": 6600,
+        "tMillis": 6000,
         "pose": {
           "neck": 6
         }
@@ -51,7 +50,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 1,
@@ -72,42 +71,36 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 800,
+        "tMillis": 1200,
         "pose": {
           "neck": 24
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "right, hold 15s"
       },
       {
-        "tMillis": 5800,
+        "tMillis": 14500,
         "pose": {
           "neck": 24
         }
       },
       {
-        "tMillis": 6600,
-        "pose": {},
-        "haptic": "switchSides"
-      },
-      {
-        "tMillis": 7400,
+        "tMillis": 16000,
         "pose": {
           "neck": -24
         },
-        "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "haptic": "switchSides",
+        "holdLabel": "left, hold 15s"
       },
       {
-        "tMillis": 12400,
+        "tMillis": 29000,
         "pose": {
           "neck": -24
         }
       },
       {
-        "tMillis": 13200,
-        "pose": {},
-        "haptic": "repBoundary"
+        "tMillis": 30000,
+        "pose": {}
       }
     ],
     "tags": [
@@ -123,7 +116,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "front",
     "sortOrder": 2,
@@ -170,21 +163,41 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 1000,
+        "tMillis": 1200,
         "pose": {
           "neck": 26
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "chin to chest, hold 15s"
       },
       {
-        "tMillis": 6000,
+        "tMillis": 14500,
         "pose": {
           "neck": 26
         }
       },
       {
-        "tMillis": 7000,
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "neck": 26
+        },
+        "haptic": "hold",
+        "holdLabel": "chin to chest, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "neck": 26
+        }
+      },
+      {
+        "tMillis": 30000,
         "pose": {}
       }
     ],
@@ -201,7 +214,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 4,
@@ -279,11 +292,40 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "front",
     "sortOrder": 7,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {}
+      },
+      {
+        "tMillis": 800,
+        "pose": {
+          "shoulders": 72
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "up to your ears"
+      },
+      {
+        "tMillis": 3800,
+        "pose": {
+          "shoulders": 72
+        }
+      },
+      {
+        "tMillis": 5000,
+        "pose": {}
+      },
+      {
+        "tMillis": 6000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "526A9B7A-191F-469E-B2BF-DBCCEBA3532B",
@@ -348,11 +390,10 @@
     "motion": [
       {
         "tMillis": 0,
-        "pose": {},
-        "haptic": "repBoundary"
+        "pose": {}
       },
       {
-        "tMillis": 1000,
+        "tMillis": 1500,
         "pose": {
           "shoulderR": 152,
           "shoulderL": 152,
@@ -361,7 +402,7 @@
         }
       },
       {
-        "tMillis": 2000,
+        "tMillis": 3000,
         "pose": {
           "shoulderR": 152,
           "shoulderL": 152,
@@ -370,10 +411,10 @@
           "spine": 16
         },
         "haptic": "hold",
-        "holdLabel": "hold 10s"
+        "holdLabel": "lean right 10s"
       },
       {
-        "tMillis": 5000,
+        "tMillis": 13000,
         "pose": {
           "shoulderR": 152,
           "shoulderL": 152,
@@ -383,17 +424,16 @@
         }
       },
       {
-        "tMillis": 6000,
+        "tMillis": 15500,
         "pose": {
           "shoulderR": 152,
           "shoulderL": 152,
           "elbowR": 18,
           "elbowL": 18
-        },
-        "haptic": "switchSides"
+        }
       },
       {
-        "tMillis": 7000,
+        "tMillis": 17000,
         "pose": {
           "shoulderR": 152,
           "shoulderL": 152,
@@ -401,11 +441,11 @@
           "elbowL": 18,
           "spine": -16
         },
-        "haptic": "hold",
-        "holdLabel": "hold 10s"
+        "haptic": "switchSides",
+        "holdLabel": "lean left 10s"
       },
       {
-        "tMillis": 10000,
+        "tMillis": 27000,
         "pose": {
           "shoulderR": 152,
           "shoulderL": 152,
@@ -415,9 +455,12 @@
         }
       },
       {
-        "tMillis": 11000,
-        "pose": {},
-        "haptic": "repBoundary"
+        "tMillis": 29000,
+        "pose": {}
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
       }
     ],
     "tags": [
@@ -433,7 +476,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "front",
     "sortOrder": 10,
@@ -454,42 +497,36 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 800,
+        "tMillis": 1200,
         "pose": {
           "neck": -26
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "left, hold 15s"
       },
       {
-        "tMillis": 5800,
+        "tMillis": 14500,
         "pose": {
           "neck": -26
         }
       },
       {
-        "tMillis": 6600,
-        "pose": {},
-        "haptic": "switchSides"
-      },
-      {
-        "tMillis": 7400,
+        "tMillis": 16000,
         "pose": {
           "neck": 26
         },
-        "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "haptic": "switchSides",
+        "holdLabel": "right, hold 15s"
       },
       {
-        "tMillis": 12400,
+        "tMillis": 29000,
         "pose": {
           "neck": 26
         }
       },
       {
-        "tMillis": 13200,
-        "pose": {},
-        "haptic": "repBoundary"
+        "tMillis": 30000,
+        "pose": {}
       }
     ],
     "tags": [
@@ -505,7 +542,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "front",
     "sortOrder": 11,
@@ -584,7 +621,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 14,
@@ -592,21 +629,6 @@
     "motion": [
       {
         "tMillis": 0,
-        "pose": {},
-        "haptic": "repBoundary"
-      },
-      {
-        "tMillis": 1750,
-        "pose": {
-          "spine": 22,
-          "spineUpper": 26,
-          "neck": 18
-        },
-        "haptic": "hold",
-        "holdLabel": "round (cat)"
-      },
-      {
-        "tMillis": 3500,
         "pose": {
           "spine": 22,
           "spineUpper": 26,
@@ -614,7 +636,16 @@
         }
       },
       {
-        "tMillis": 5250,
+        "tMillis": 1500,
+        "pose": {
+          "spine": 22,
+          "spineUpper": 26,
+          "neck": 18
+        },
+        "holdLabel": "round (cat)"
+      },
+      {
+        "tMillis": 3000,
         "pose": {
           "spine": -16,
           "spineUpper": -20,
@@ -624,7 +655,7 @@
         "holdLabel": "arch (cow)"
       },
       {
-        "tMillis": 7000,
+        "tMillis": 4500,
         "pose": {
           "spine": -16,
           "spineUpper": -20,
@@ -632,8 +663,12 @@
         }
       },
       {
-        "tMillis": 8000,
-        "pose": {}
+        "tMillis": 6000,
+        "pose": {
+          "spine": 22,
+          "spineUpper": 26,
+          "neck": 18
+        }
       }
     ]
   },
@@ -652,7 +687,7 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 1000,
+        "tMillis": 1200,
         "pose": {
           "shoulderR": 108,
           "shoulderL": 108,
@@ -660,10 +695,10 @@
           "elbowL": 120
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "press back, hold 15s"
       },
       {
-        "tMillis": 6000,
+        "tMillis": 14500,
         "pose": {
           "shoulderR": 108,
           "shoulderL": 108,
@@ -672,9 +707,34 @@
         }
       },
       {
-        "tMillis": 7000,
+        "tMillis": 15500,
         "pose": {},
-        "haptic": "repBoundary"
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "shoulderR": 108,
+          "shoulderL": 108,
+          "elbowR": 120,
+          "elbowL": 120
+        },
+        "haptic": "hold",
+        "holdLabel": "press back, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "shoulderR": 108,
+          "shoulderL": 108,
+          "elbowR": 120,
+          "elbowL": 120
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
       }
     ],
     "tags": [
@@ -690,7 +750,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "front",
     "sortOrder": 15,
@@ -717,7 +777,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 16,
@@ -735,17 +795,39 @@
           "neck": -8
         },
         "haptic": "hold",
-        "holdLabel": "arch upper back, hold 10s"
+        "holdLabel": "arch back, hold 10s"
       },
       {
-        "tMillis": 6200,
+        "tMillis": 14500,
         "pose": {
           "spineUpper": -30,
           "neck": -8
         }
       },
       {
-        "tMillis": 7400,
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "spineUpper": -30,
+          "neck": -8
+        },
+        "haptic": "hold",
+        "holdLabel": "arch back, hold 10s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "spineUpper": -30,
+          "neck": -8
+        }
+      },
+      {
+        "tMillis": 30000,
         "pose": {}
       }
     ]
@@ -787,11 +869,6 @@
     "motion": [
       {
         "tMillis": 0,
-        "pose": {},
-        "haptic": "repBoundary"
-      },
-      {
-        "tMillis": 600,
         "pose": {
           "shoulderR": 78,
           "shoulderL": 78,
@@ -800,18 +877,18 @@
         }
       },
       {
-        "tMillis": 1200,
+        "tMillis": 800,
         "pose": {
           "shoulderR": 56,
           "shoulderL": 56,
           "elbowR": 96,
           "elbowL": 96
         },
-        "haptic": "hold",
-        "holdLabel": "hold 5s"
+        "haptic": "repBoundary",
+        "holdLabel": "squeeze, hold 5s"
       },
       {
-        "tMillis": 4000,
+        "tMillis": 5200,
         "pose": {
           "shoulderR": 56,
           "shoulderL": 56,
@@ -820,14 +897,13 @@
         }
       },
       {
-        "tMillis": 4800,
+        "tMillis": 6000,
         "pose": {
           "shoulderR": 78,
           "shoulderL": 78,
           "elbowR": 90,
           "elbowL": 90
-        },
-        "haptic": "repBoundary"
+        }
       }
     ],
     "tags": [
@@ -843,7 +919,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "front",
     "sortOrder": 18,
@@ -869,11 +945,57 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "handCloseup",
     "sortOrder": 19,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "wristL": 52
+        },
+        "haptic": "hold",
+        "holdLabel": "extend back, hold 15s"
+      },
+      {
+        "tMillis": 14500,
+        "pose": {
+          "wristL": 52
+        }
+      },
+      {
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "wristL": 52
+        },
+        "haptic": "hold",
+        "holdLabel": "extend back, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "wristL": 52
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "D69F9D2B-ACBF-403E-8FD1-D5692625F098",
@@ -895,11 +1017,61 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "handCloseup",
     "sortOrder": 20,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "wristL": -48,
+          "fingers": 30
+        },
+        "haptic": "hold",
+        "holdLabel": "flex down, hold 15s"
+      },
+      {
+        "tMillis": 14500,
+        "pose": {
+          "wristL": -48,
+          "fingers": 30
+        }
+      },
+      {
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "wristL": -48,
+          "fingers": 30
+        },
+        "haptic": "hold",
+        "holdLabel": "flex down, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "wristL": -48,
+          "fingers": 30
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "CDDE43E6-3209-43A7-BCFB-7489A5F6A763",
@@ -921,11 +1093,47 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "handCloseup",
     "sortOrder": 21,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {
+          "fingers": 85
+        }
+      },
+      {
+        "tMillis": 1500,
+        "pose": {
+          "fingers": 85
+        },
+        "holdLabel": "fist 3s"
+      },
+      {
+        "tMillis": 3000,
+        "pose": {
+          "fingerSpread": 64
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "fan 3s"
+      },
+      {
+        "tMillis": 4500,
+        "pose": {
+          "fingerSpread": 64
+        }
+      },
+      {
+        "tMillis": 6000,
+        "pose": {
+          "fingers": 85
+        }
+      }
+    ]
   },
   {
     "id": "D61E16DA-59AB-4C6D-8FB7-2977E65F7640",
@@ -1051,11 +1259,37 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "front",
     "sortOrder": 26,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1500,
+        "pose": {
+          "legCross": 100
+        },
+        "haptic": "hold",
+        "holdLabel": "cross & hold"
+      },
+      {
+        "tMillis": 28500,
+        "pose": {
+          "legCross": 100
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "A862155A-F679-4CB0-967C-CEBB9A91728A",
@@ -1072,23 +1306,45 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 1000,
+        "tMillis": 1200,
         "pose": {
           "hipL": 65,
           "kneeL": 50
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "pull in, hold 15s"
       },
       {
-        "tMillis": 6000,
+        "tMillis": 14500,
         "pose": {
           "hipL": 65,
           "kneeL": 50
         }
       },
       {
-        "tMillis": 7000,
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "hipL": 65,
+          "kneeL": 50
+        },
+        "haptic": "hold",
+        "holdLabel": "pull in, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "hipL": 65,
+          "kneeL": 50
+        }
+      },
+      {
+        "tMillis": 30000,
         "pose": {}
       }
     ],
@@ -1105,7 +1361,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 27,
@@ -1132,7 +1388,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 28,
@@ -1140,44 +1396,41 @@
     "motion": [
       {
         "tMillis": 0,
-        "pose": {},
-        "haptic": "repBoundary"
-      },
-      {
-        "tMillis": 1000,
-        "pose": {
-          "spine": 14,
-          "spineUpper": -28
-        },
-        "haptic": "hold",
-        "holdLabel": "anterior tilt, hold 5s"
-      },
-      {
-        "tMillis": 3000,
         "pose": {
           "spine": 14,
           "spineUpper": -28
         }
       },
       {
-        "tMillis": 4000,
+        "tMillis": 3500,
+        "pose": {
+          "spine": 14,
+          "spineUpper": -28
+        },
+        "holdLabel": "anterior 5s"
+      },
+      {
+        "tMillis": 5000,
         "pose": {
           "spine": -12,
           "spineUpper": 24
         },
         "haptic": "repBoundary",
-        "holdLabel": "posterior tilt, hold 5s"
+        "holdLabel": "posterior 5s"
       },
       {
-        "tMillis": 6000,
+        "tMillis": 8500,
         "pose": {
           "spine": -12,
           "spineUpper": 24
         }
       },
       {
-        "tMillis": 7000,
-        "pose": {}
+        "tMillis": 10000,
+        "pose": {
+          "spine": 14,
+          "spineUpper": -28
+        }
       }
     ]
   },
@@ -1196,23 +1449,45 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 1000,
+        "tMillis": 1200,
         "pose": {
           "hipL": -38,
           "kneeL": 20
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "press forward, hold 15s"
       },
       {
-        "tMillis": 6000,
+        "tMillis": 14500,
         "pose": {
           "hipL": -38,
           "kneeL": 20
         }
       },
       {
-        "tMillis": 7000,
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "hipL": -38,
+          "kneeL": 20
+        },
+        "haptic": "hold",
+        "holdLabel": "press forward, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "hipL": -38,
+          "kneeL": 20
+        }
+      },
+      {
+        "tMillis": 30000,
         "pose": {}
       }
     ],
@@ -1229,7 +1504,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 29,
@@ -1255,11 +1530,37 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "front",
     "sortOrder": 30,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1500,
+        "pose": {
+          "legCross": 100
+        },
+        "haptic": "hold",
+        "holdLabel": "cross & lean"
+      },
+      {
+        "tMillis": 28500,
+        "pose": {
+          "legCross": 100
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "A9A2BFD2-13F7-4122-86E5-21A0DE0534B0",
@@ -1283,10 +1584,10 @@
           "kneeL": -72
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "hinge forward, hold 15s"
       },
       {
-        "tMillis": 6200,
+        "tMillis": 14500,
         "pose": {
           "spine": 18,
           "hipL": -5,
@@ -1294,7 +1595,31 @@
         }
       },
       {
-        "tMillis": 7400,
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "spine": 18,
+          "hipL": -5,
+          "kneeL": -72
+        },
+        "haptic": "hold",
+        "holdLabel": "hinge forward, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "spine": 18,
+          "hipL": -5,
+          "kneeL": -72
+        }
+      },
+      {
+        "tMillis": 30000,
         "pose": {}
       }
     ],
@@ -1311,7 +1636,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 31,
@@ -1363,11 +1688,36 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "footCloseup",
     "sortOrder": 33,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {}
+      },
+      {
+        "tMillis": 700,
+        "pose": {
+          "ankleL": -42
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "press up"
+      },
+      {
+        "tMillis": 3000,
+        "pose": {
+          "ankleL": -42
+        }
+      },
+      {
+        "tMillis": 3750,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "7C284C18-1AA1-436F-9CBE-3044AF73CE56",
@@ -1389,11 +1739,47 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "footCloseup",
     "sortOrder": 34,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {
+          "toes": -36
+        }
+      },
+      {
+        "tMillis": 3500,
+        "pose": {
+          "toes": -36
+        },
+        "holdLabel": "curl 5s"
+      },
+      {
+        "tMillis": 5000,
+        "pose": {
+          "toes": 36
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "spread 5s"
+      },
+      {
+        "tMillis": 8500,
+        "pose": {
+          "toes": 36
+        }
+      },
+      {
+        "tMillis": 10000,
+        "pose": {
+          "toes": -36
+        }
+      }
+    ]
   },
   {
     "id": "BA5736AB-D714-4B16-8C7F-B7B0DBFB9521",
@@ -1410,23 +1796,45 @@
         "haptic": "repBoundary"
       },
       {
-        "tMillis": 1000,
+        "tMillis": 1200,
         "pose": {
           "hipL": -8,
           "kneeL": 65
         },
         "haptic": "hold",
-        "holdLabel": "hold 15s"
+        "holdLabel": "pull heel, hold 15s"
       },
       {
-        "tMillis": 6000,
+        "tMillis": 14500,
         "pose": {
           "hipL": -8,
           "kneeL": 65
         }
       },
       {
-        "tMillis": 7000,
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "hipL": -8,
+          "kneeL": 65
+        },
+        "haptic": "hold",
+        "holdLabel": "pull heel, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "hipL": -8,
+          "kneeL": 65
+        }
+      },
+      {
+        "tMillis": 30000,
         "pose": {}
       }
     ],
@@ -1443,7 +1851,7 @@
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
       "reviewStatus": "approved",
-      "motionReviewStatus": "draft"
+      "motionReviewStatus": "approved"
     },
     "viewPlane": "side",
     "sortOrder": 35,
@@ -1469,10 +1877,56 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "approved"
     },
-    "viewPlane": "side",
+    "viewPlane": "footCloseup",
     "sortOrder": 36,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "ankleL": 38
+        },
+        "haptic": "hold",
+        "holdLabel": "knee over toes, hold 15s"
+      },
+      {
+        "tMillis": 14500,
+        "pose": {
+          "ankleL": 38
+        }
+      },
+      {
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "ankleL": 38
+        },
+        "haptic": "hold",
+        "holdLabel": "knee over toes, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "ankleL": 38
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   }
 ]
