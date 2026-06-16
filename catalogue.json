@@ -488,11 +488,129 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
     "viewPlane": "side",
     "sortOrder": 9,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 800,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        },
+        "haptic": "hold",
+        "holdLabel": "squeeze, hold 5s"
+      },
+      {
+        "tMillis": 5700,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        }
+      },
+      {
+        "tMillis": 6000,
+        "pose": {}
+      },
+      {
+        "tMillis": 6800,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        },
+        "haptic": "hold",
+        "holdLabel": "squeeze, hold 5s"
+      },
+      {
+        "tMillis": 11700,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        }
+      },
+      {
+        "tMillis": 12000,
+        "pose": {}
+      },
+      {
+        "tMillis": 12800,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        },
+        "haptic": "hold",
+        "holdLabel": "squeeze, hold 5s"
+      },
+      {
+        "tMillis": 17700,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        }
+      },
+      {
+        "tMillis": 18000,
+        "pose": {}
+      },
+      {
+        "tMillis": 18800,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        },
+        "haptic": "hold",
+        "holdLabel": "squeeze, hold 5s"
+      },
+      {
+        "tMillis": 23700,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        }
+      },
+      {
+        "tMillis": 24000,
+        "pose": {}
+      },
+      {
+        "tMillis": 24800,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        },
+        "haptic": "hold",
+        "holdLabel": "squeeze, hold 5s"
+      },
+      {
+        "tMillis": 29700,
+        "pose": {
+          "shoulderL": 46,
+          "elbowL": 30,
+          "spineUpper": -10
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "C371E8D6-8DF5-48CD-AF32-90D5ED11E6B1",
@@ -709,11 +827,65 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
     "viewPlane": "side",
     "sortOrder": 13,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 2000,
+        "pose": {
+          "shoulderL": 120,
+          "elbowL": 8,
+          "spineUpper": -12
+        },
+        "haptic": "hold",
+        "holdLabel": "lift & open, hold 15s"
+      },
+      {
+        "tMillis": 14000,
+        "pose": {
+          "shoulderL": 120,
+          "elbowL": 8,
+          "spineUpper": -12
+        }
+      },
+      {
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "repBoundary",
+        "holdLabel": "release"
+      },
+      {
+        "tMillis": 17500,
+        "pose": {
+          "shoulderL": 120,
+          "elbowL": 8,
+          "spineUpper": -12
+        },
+        "haptic": "hold",
+        "holdLabel": "lift & open, hold 15s"
+      },
+      {
+        "tMillis": 29000,
+        "pose": {
+          "shoulderL": 120,
+          "elbowL": 8,
+          "spineUpper": -12
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "8C5F7803-0961-41D5-AD00-AC3ED94E6DC3",
