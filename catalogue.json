@@ -852,11 +852,61 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
-    "viewPlane": "side",
+    "viewPlane": "front",
     "sortOrder": 17,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {
+          "shoulderR": 85,
+          "shoulderL": 85,
+          "elbowR": 18,
+          "elbowL": 18
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "small circles"
+      },
+      {
+        "tMillis": 400,
+        "pose": {
+          "shoulderR": 93,
+          "shoulderL": 93,
+          "elbowR": 24,
+          "elbowL": 24
+        }
+      },
+      {
+        "tMillis": 800,
+        "pose": {
+          "shoulderR": 85,
+          "shoulderL": 85,
+          "elbowR": 34,
+          "elbowL": 34
+        }
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "shoulderR": 77,
+          "shoulderL": 77,
+          "elbowR": 24,
+          "elbowL": 24
+        }
+      },
+      {
+        "tMillis": 1600,
+        "pose": {
+          "shoulderR": 85,
+          "shoulderL": 85,
+          "elbowR": 18,
+          "elbowL": 18
+        }
+      }
+    ]
   },
   {
     "id": "58092A05-A122-4904-9CE2-4093DB489983",
