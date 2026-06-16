@@ -295,11 +295,51 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
     "viewPlane": "side",
     "sortOrder": 6,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "neck": -24
+        },
+        "haptic": "hold",
+        "holdLabel": "left ear toward shoulder, hold 15s"
+      },
+      {
+        "tMillis": 14500,
+        "pose": {
+          "neck": -24
+        }
+      },
+      {
+        "tMillis": 16000,
+        "pose": {
+          "neck": 24
+        },
+        "haptic": "switchSides",
+        "holdLabel": "right ear toward shoulder, hold 15s"
+      },
+      {
+        "tMillis": 29000,
+        "pose": {
+          "neck": 24
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "E45359DD-4A90-4F06-9D7C-EFCABCBAA33F",
@@ -1332,11 +1372,57 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
-    "viewPlane": "side",
+    "viewPlane": "handCloseup",
     "sortOrder": 24,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1200,
+        "pose": {
+          "thumb": 60
+        },
+        "haptic": "hold",
+        "holdLabel": "thumb across palm, hold 15s"
+      },
+      {
+        "tMillis": 14500,
+        "pose": {
+          "thumb": 60
+        }
+      },
+      {
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch hands"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "thumb": 60
+        },
+        "haptic": "hold",
+        "holdLabel": "thumb across palm, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "thumb": 60
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "0BF46D96-DD48-4122-8B0B-9A6BDC512DC9",
