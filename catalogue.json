@@ -240,11 +240,40 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
-    "viewPlane": "side",
+    "viewPlane": "front",
     "sortOrder": 5,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {
+          "shoulderR": 148,
+          "elbowR": 125,
+          "neck": 0
+        },
+        "haptic": "repBoundary",
+        "holdLabel": "press, hold"
+      },
+      {
+        "tMillis": 1400,
+        "pose": {
+          "shoulderR": 148,
+          "elbowR": 125,
+          "neck": 7
+        }
+      },
+      {
+        "tMillis": 3000,
+        "pose": {
+          "shoulderR": 148,
+          "elbowR": 125,
+          "neck": 0
+        }
+      }
+    ]
   },
   {
     "id": "5E1FBA92-C65D-4C08-9E9A-9AD931016CB9",
@@ -347,11 +376,57 @@
     "provenance": {
       "reviewedBy": "Brian (beta)",
       "reviewedAt": null,
-      "reviewStatus": "approved"
+      "reviewStatus": "approved",
+      "motionReviewStatus": "draft"
     },
-    "viewPlane": "side",
+    "viewPlane": "front",
     "sortOrder": 8,
-    "isActive": true
+    "isActive": true,
+    "motion": [
+      {
+        "tMillis": 0,
+        "pose": {},
+        "haptic": "repBoundary"
+      },
+      {
+        "tMillis": 1500,
+        "pose": {
+          "armCrossR": 100
+        },
+        "haptic": "hold",
+        "holdLabel": "across, hold 15s"
+      },
+      {
+        "tMillis": 14500,
+        "pose": {
+          "armCrossR": 100
+        }
+      },
+      {
+        "tMillis": 15500,
+        "pose": {},
+        "haptic": "switchSides",
+        "holdLabel": "switch"
+      },
+      {
+        "tMillis": 16500,
+        "pose": {
+          "armCrossR": 100
+        },
+        "haptic": "hold",
+        "holdLabel": "across, hold 15s"
+      },
+      {
+        "tMillis": 29500,
+        "pose": {
+          "armCrossR": 100
+        }
+      },
+      {
+        "tMillis": 30000,
+        "pose": {}
+      }
+    ]
   },
   {
     "id": "E19FE2A9-86E4-4328-92F8-CD8B117BC2CC",

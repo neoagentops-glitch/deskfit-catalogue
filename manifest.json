@@ -1,4 +1,5 @@
 {
-  "version": 3,
-  "file": "catalogue.json"
+  "version": 4,
+  "file": "catalogue.json",
+  "minAppBuild": 12
 }
